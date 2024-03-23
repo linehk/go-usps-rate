@@ -28,9 +28,9 @@ func TestGet(t *testing.T) {
 	}
 	parcel3 := Parcel{
 		Weight: 1,
-		Length: 0,
-		Width:  0,
-		Height: 0,
+		Length: 20,
+		Width:  20,
+		Height: 20,
 	}
 
 	now := time.Now()
@@ -45,7 +45,7 @@ func TestGet(t *testing.T) {
 	}{
 		{"94117", "90304", f, parcel1, 13.63, nil},
 		{"97030", "90304", f, parcel2, 14.09, nil},
-		{"24301", "90304", f, parcel3, 48.92, nil},
+		{"24301", "90304", f, parcel3, 285.78, nil},
 	}
 
 	for _, tt := range tests {

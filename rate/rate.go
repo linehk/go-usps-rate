@@ -22,6 +22,8 @@ func zoneToColumn(z int) string {
 }
 
 // Parcel is the parcel stats.
+// Weight unit is lb.
+// Length, Width, Height unit is in.
 type Parcel struct {
 	Weight int
 	Length int
