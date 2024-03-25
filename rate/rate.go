@@ -65,8 +65,7 @@ func (w WithDate) applyTo(opts *serviceOptions) {
 func Get(ori, dst string, f *excelize.File, parcel Parcel, opts ...options) (float64, error) {
 	now := time.Now()
 	option := serviceOptions{
-		serviceCode: USPS,
-		date:        &now,
+		date: &now,
 	}
 	for _, opt := range opts {
 		opt.applyTo(&option)
