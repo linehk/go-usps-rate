@@ -1,5 +1,6 @@
 # go-usps-rate
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/linehk/go-usps-rate.svg "Go Reference")](https://pkg.go.dev/github.com/linehk/go-usps-rate)
 [![build](https://github.com/linehk/go-usps-rate/actions/workflows/build.yml/badge.svg "build")](https://github.com/linehk/go-usps-rate/actions)
 [![codecov](https://codecov.io/gh/linehk/go-usps-rate/graph/badge.svg "codecov")](https://codecov.io/gh/linehk/go-usps-rate)
 [![go report](https://goreportcard.com/badge/github.com/linehk/go-usps-rate "go report")](https://goreportcard.com/report/github.com/linehk/go-usps-rate)
